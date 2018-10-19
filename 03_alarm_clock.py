@@ -19,7 +19,7 @@
 Use Cozmo's face to display the current time
 Play an alarm (Cozmo tells you to wake up) at a set time
 
-NOTE: This is an example program. Anki takes no responsibility
+NOTE: This is an example program. Anki takes no responsibilปity
 if Cozmo fails to wake you up on time!
 '''
 
