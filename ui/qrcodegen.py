@@ -11,3 +11,4 @@ qr.png('qrcode.png',scale=7)
 
 qr = Image.open('C:/wamp64/www/cozmo_ui/qrcode.png')
 qr.save('C:/wamp64/www/cozmo_ui/templates/static/qrcode.png')
+#there is two qrcode(s) in the same folder as this python file and in static folder
