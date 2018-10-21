@@ -175,7 +175,7 @@
                      }  
                      ?> 
                      
-                <br><a onclick="window.open(this.href,this.target);return false;" href="http://127.0.0.1:5000/" target="whatever">
+                <br><a onclick="window.open(this.href,this.target);return false;" href="qrcode.png" target="whatever">
 				        <p id="foot" class="pull-right">Show QRCode</p>   
 						    </a>
                 
