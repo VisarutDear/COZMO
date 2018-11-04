@@ -2,6 +2,7 @@ from datetime import datetime
 import time
 from detectqr import *
 import json
+<<<<<<< HEAD
 import cozmo
 import http.client
 
@@ -58,3 +59,30 @@ def after_alarm(robot: cozmo.robot.Robot):
             #line notify
             print("NO")
         time.sleep(10)
+=======
+import datetime
+import math
+import sys
+import time
+import asyncio
+import cozmo
+
+
+a = decodeQR()
+a = json.loads(a.decode("utf-8").replace("'",'"'))
+print(a['time'])
+print(a)
+alarm_time = ["breakfast","lunch","dinner","bed"]
+
+alarm_med = []
+breakfast = a['time']
+lunch = "12:00"
+dinner = "17:00"
+bed = "20:30"
+#now = datetime.now().strftime("%H:%M")
+if breakfast == '08.00' :
+    print("YES")
+else :
+    print("NO")
+    
+>>>>>>> c2630ab6488cc7f75bb45bd170c4b3b6353fa657
