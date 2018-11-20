@@ -1,0 +1,1 @@
+#Flask calls files such as CSS, JS, and images only from "/static" folder.
